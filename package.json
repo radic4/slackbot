@@ -1,0 +1,28 @@
+{
+  "name": "gigaaabot",
+  "version": "1.0.0",
+  "description": "BotKit and Slack",
+  "main": "index.js",
+  "dependencies": {
+    "botkit": "^0.6.16",
+    "node-fetch": "^2.2.0",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "botkit",
+    "heroku"
+  ],
+  "author": "Milos Radic",
+  "license": "ISC",
+  "engines": {
+    "node": "6.10.1"
+  },
+  "scripts": {
+  	"start": "node index.js"
+  }
+}
